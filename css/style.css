@@ -4,8 +4,10 @@
 }
 
 body{
-	background: url("../img/background-pizza.png") 0 0 no-repeat;
 	background-color: #131313;
+	background-image: url("../img/background-pizza.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 header{
@@ -112,7 +114,7 @@ th, td, p, label{
 }
 
 th{
-	color: #4d4d4d;
+	color: #cac3c3;
 	font-weight: bold;
 }
 
@@ -135,7 +137,7 @@ form label{
 }
 
 form input, form textarea{
-	border:1px solid #2a2a2a;
+	border:1px solid #7a7676;
 	height: 10px;
 	width: 500px;
 	border-radius: 30px;
@@ -191,4 +193,32 @@ footer p{
 
 .texto-negativo{
 	color: #fb3958;
+}
+
+form a {
+	cursor: pointer;
+	border: 1.3px solid #fff;
+	padding: 8px 14px;
+	border-radius: 50%;
+}
+
+form a:hover {
+	background-color: #6d6d6d6d;
+}
+
+form a:active {
+	background-color: #777;
+}
+
+input.quantidade {
+	text-align: center;
+	border: none;
+	display: inline;
+	width: 30px;
+	padding: 5px 0px;
+	margin-left: 15px;
+}
+
+form td:nth-child(2){
+	min-width: 123px;
 }
